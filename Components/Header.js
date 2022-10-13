@@ -4,8 +4,7 @@ import { View, Text, StyleSheet, Dimensions } from "react-native";
 export default function Header (props) {
     return (
         <View style={styles.header}>
-            <StatusBar hidden={true}/>
-            <Text>Hi, Elias</Text>
+            <StatusBar style='dark' translucent={true}/>
         </View>
     )
 };

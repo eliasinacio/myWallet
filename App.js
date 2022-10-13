@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, StatusBar} from 'react-native';
 import Amount from './Components/Amount';
 import Header from './Components/Header';
 
@@ -15,6 +15,6 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#fff',
+    // backgroundColor: 'transparent',
   }
 });
